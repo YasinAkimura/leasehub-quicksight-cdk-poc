@@ -1,0 +1,38 @@
+[
+    {
+        "id": "some-unique-1",
+        "city": "Berlin",
+        "temperature": 33,
+        "date": "28.06.2023"
+    },
+    {
+        "id": "some-unique-2",
+        "city": "Berlin",
+        "temperature": 31,
+        "date": "29.06.2023"
+    },
+    {
+        "id": "some-unique-3",
+        "city": "Berlin",
+        "temperature": 43,
+        "date": "30.06.2023"
+    },
+    {
+        "id": "some-unique-4",
+        "city": "Berlin",
+        "temperature": 28,
+        "date": "01.07.2023"
+    },
+    {
+        "id": "some-unique-5",
+        "city": "Berlin",
+        "temperature": 30,
+        "date": "02.07.2023"
+    },
+    {
+        "id": "some-unique-6",
+        "city": "Berlin",
+        "temperature": 32,
+        "date": "03.07.2023"
+    }
+]

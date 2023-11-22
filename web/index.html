@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leasehub Dashboard sample</title>
+</head>
+<body>
+    <iframe id="dashboardIframe" width="800" height="600"></iframe>
+    <script>
+        async function getDashboardUrl() {
+            // Ersetzen Sie diese URL durch die URL Ihres Anwendungsservers
+            const serverUrl = "https://my-server.com/get-dashboard-url";
+            // Senden Sie eine GET-Anfrage an den Server und erhalten Sie die Dashboard-URL als Antwort
+            const response = await fetch(serverUrl);
+            const data = await response.json();
+            const dashboardUrl = data.url;
+            // Fügen Sie die Dashboard-URL in das iframe-Element ein
+            const iframe = document.getElementById("dashboardIframe");
+            iframe.src = dashboardUrl;
+        }
+        window.addEventListener("load", getDashboardUrl);
+    </script>
+</body>
+</html>
